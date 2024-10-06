@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    cursor: progress;
+    background-color: rgb(181, 248, 233);
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5vh;
+    padding: 2%;
+    height: 30vh;
+    width: 70vw;
+    font-size: 20px;
+    background-color: rgb(181, 252, 210);
+    border-radius: 30%;
+    box-shadow: 0px 4px 10px grey;
+    cursor: help;
+}
+.box:hover{
+    background-color: rgb(137, 253, 186);
+    border: 1px solid black;
+}
+.heart {
+    font-size: 48px;
+    cursor: grab;
+}
+
+.b1 {
+    padding-top: 10px;
+    height: 20vh;
+    cursor: col-resize;
+}
+img {
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: alias;
+}
